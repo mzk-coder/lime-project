@@ -16,6 +16,7 @@ class DropDown<T> extends StatefulWidget {
   final double? marginTop;
   final double? marginBottom;
   final double width;
+  final Color filledColor;
 
   const DropDown({
     Key? key,
@@ -24,7 +25,8 @@ class DropDown<T> extends StatefulWidget {
     required this.onItemSelect,
     this.marginTop,
     this.marginBottom,
-    this.width = Dimen.dimen_120
+    this.width = Dimen.dimen_120,
+    this.filledColor = AppColor.filledBlue
   }) : super(key: key);
 
   @override

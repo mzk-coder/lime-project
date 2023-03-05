@@ -3,8 +3,8 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:lime_project_app/common/ui/theme/app_color.dart';
 import 'package:lime_project_app/common/ui/theme/app_style.dart';
 
-import '../../../../common/ui/res/dimen.dart';
-import '../../../../common/ui/widgets/empty_text_field.dart';
+import '../res/dimen.dart';
+import 'empty_text_field.dart';
 
 class TextInputItem extends StatelessWidget {
   final String title;

@@ -9,8 +9,8 @@ import '../../../common/ui/widgets/app_primary_button.dart';
 import '../../../common/ui/widgets/drop_down.dart';
 import '../../../common/ui/widgets/empty_text_field.dart';
 import '../main_screen/widgets/main_list_header.dart';
-import 'widgets/switch_view.dart';
-import 'widgets/text_input_item.dart';
+import '../../../common/ui/widgets/switch_view.dart';
+import '../../../common/ui/widgets/text_input_item.dart';
 
 class TruckReportScreen extends StatelessWidget {
   const TruckReportScreen({Key? key}) : super(key: key);
